@@ -6,6 +6,6 @@ Dataset can be downloaded from [here](vision.stanford.edu/aditya86/ImageNetDogs/
 
 The dataset comprises of 120 classes/breeds of dogs with a total of 20,580 images.
 
-I used the pre-trained [VG19](https://keras.io/applications/#vgg19) model fom keras.applications and added a dense layer to it to train the model. [ImageDataGenerator](https://keras.io/preprocessing/image/) from Keras's image preprocessing was used for image augmentation. Model was compiled and trainde for 50 epochs with a batch size of 32 (alterable).
+I used the pre-trained [VG19](https://keras.io/applications/#vgg19) model fom keras.applications and added a dense layer to the model. [ImageDataGenerator](https://keras.io/preprocessing/image/) from Keras's image preprocessing was used for image augmentation. Model was compiled and trained for 50 epochs with a batch size of 32 (alterable).
 
 
