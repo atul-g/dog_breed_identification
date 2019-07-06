@@ -53,6 +53,8 @@ for folder in os.listdir(basedir):
         
 
 
+#After coding the above section, you will have two directories "train" and "test" which will
+#contain subdirectories of the breeds wihch will in turn contain the images named "0.jpg, 1.jpg, 2.jpg..etc"
 
 #Image augmentation
 
